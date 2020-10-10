@@ -6,3 +6,7 @@ The idea was to have an countdown timer which helps me manage coding sessions an
 ## Instructions:
 1. Single click (tap) on the timer to start and stop
 2. Double click on the timer to reset
+
+
+## Screenshot 
+![Screenshot](./Screenshot.png)
