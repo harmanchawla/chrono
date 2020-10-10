@@ -9,12 +9,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var stopWatch = StopWatch()
+    
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        Text(self.stopWatch.stopWatchTime)
+        .font(.system(size: 60))
+        .fontWeight(.semibold)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .onTapGesture(count: 2) {
+            self.stopWatch.reset()
+        }
+        .onTapGesture {
+            if (self.stopWatch.paused == true) {
+                self.stopWatch.start()
+                self.stopWatch.paused = false
+            } else {
+                self.stopWatch.pause()
+                self.stopWatch.paused = true
+            }
+        }
     }
 }
-
+    
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

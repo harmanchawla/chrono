@@ -13,6 +13,7 @@
 		0987BD5A25317864000C66B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0987BD5925317864000C66B5 /* Assets.xcassets */; };
 		0987BD5D25317864000C66B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0987BD5C25317864000C66B5 /* Preview Assets.xcassets */; };
 		0987BD6025317864000C66B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0987BD5E25317864000C66B5 /* Main.storyboard */; };
+		0987BD6925317C2F000C66B5 /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987BD6825317C2F000C66B5 /* StopWatchManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		0987BD5F25317864000C66B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0987BD6125317864000C66B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0987BD6225317864000C66B5 /* Chrono.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chrono.entitlements; sourceTree = "<group>"; };
+		0987BD6825317C2F000C66B5 /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				0987BD522531785E000C66B5 /* AppDelegate.swift */,
 				0987BD542531785E000C66B5 /* ContentView.swift */,
+				0987BD6825317C2F000C66B5 /* StopWatchManager.swift */,
 				0987BD5925317864000C66B5 /* Assets.xcassets */,
 				0987BD5E25317864000C66B5 /* Main.storyboard */,
 				0987BD6125317864000C66B5 /* Info.plist */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0987BD582531785E000C66B5 /* Chrono.xcdatamodeld in Sources */,
+				0987BD6925317C2F000C66B5 /* StopWatchManager.swift in Sources */,
 				0987BD552531785E000C66B5 /* ContentView.swift in Sources */,
 				0987BD532531785E000C66B5 /* AppDelegate.swift in Sources */,
 			);
